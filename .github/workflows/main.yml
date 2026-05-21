@@ -1,0 +1,11 @@
+name: Mon Workflow
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exécuter une commande
+        run: echo "Hello World"
